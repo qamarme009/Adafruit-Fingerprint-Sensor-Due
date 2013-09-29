@@ -128,4 +128,7 @@ int getFingerprintIDez() {
   Serial.print("Found ID #"); Serial.print(finger.fingerID); 
   Serial.print(" with confidence of "); Serial.println(finger.confidence);
   return finger.fingerID; 
+  
+  // Match not found
+  // How to program. 
 }
